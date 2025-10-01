@@ -1,6 +1,13 @@
 # deploy-OCI_TechnitiumDNS_rp-NPM
 Explore practical deployments of simple [Technitium DNS](https://github.com/TechnitiumSoftware/DnsServer) instance(s) onto the free service tier of Oracle Cloud Infrastructure via Portainer stacks using Docker composed container configs serviced by a reverse proxy on a front-end Docker network.
 
+### Objective: 
+
+We want to determine of the default FOSS implementation of Technitium DNS supports RBAC, i.e.
+1. multiple user accounts
+   2. each controlling one or more independent DNS usage profiles
+
+
 ### Background:
 
 This service deployment relies on the previous project: [deploy-OCI_Portainer-NPM-frontend](https://github.com/vyzed-public/deploy-OCI_Portainer-NPM-frontend/tree/main)
