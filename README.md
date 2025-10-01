@@ -4,7 +4,7 @@ Explore practical deployments of simple [Technitium DNS](https://github.com/Tech
 ### Objective: 
 
 We want to determine of the default FOSS implementation of Technitium DNS supports RBAC, i.e.
-1. multiple user accounts;
+1. multiple non-related user accounts;
 2. each controlling one or more independent DNS usage profiles.
 
 
