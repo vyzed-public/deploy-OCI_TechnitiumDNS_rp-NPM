@@ -3,7 +3,7 @@ services:
   dns-server:
     container_name: technitium-dns
     hostname: technitium-dns
-    image: technitium/dns-server:13.6
+    image: technitium/dns-server:13.6.0
     # For DHCP deployments, use "host" network mode and remove all the port mappings, including the ports array by commenting them
     # network_mode: "host"
     networks:
